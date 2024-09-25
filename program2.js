@@ -2,7 +2,7 @@
  * @param {string} s
  * @return {number}
  */
-var romanToInt = function(s) {
+
     function romanToInt(s) {
         let map = {
             'I': 1,
@@ -34,7 +34,7 @@ var romanToInt = function(s) {
     console.log(romanToInt("MCMXCIV")); // Output: 1994
     
     
-};
+
 
 
 module.exports={romanToInt}
